@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+html {
+	background: url(images/city.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+* {
+	font-family: 'Cabin', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.stylebox a {
+	color:silver;
+}
+
+.stylebox a:hover {
+	color:red;
+}
+
+ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 5px;
+}
+
+h3 {
+	font-size: italic;
+}
+
+.header {
+	display:block;
+	background-color: rgba(177, 195, 197, 0.95);
+	color: black;
+	font-style: italic;
+}
+.header h1 {
+	padding-top: 60%;
+	padding-left: 15%;
+	padding-right: 10%;
+	padding-bottom: 0%;
+}
+
+.header p {
+	font-size: 1fr;
+	padding-top: 0fr;
+	padding-left: 50%;
+	padding-right: 10%;
+	padding-bottom: 0fr;
+}
+.header img {
+	width: 720px;
+	max-width: 130%;
+	max-height: 600px;
+}
+
+.stylebox {
+	background-color: rgba(177, 195, 197, 0.95);
+}
+
+.content_1, .content_2, .content_3 {
+	background-color: rgba(82, 36, 144, 0.95);
+}
+
+.about_me {
+	background-color: rgba(177, 195, 197, 1);
+}
+
+.project_photos {
+	margin-right: 10px;
+}
+
+.amok {
+	width: 132px;
+	max-width: 100%;
+	max-height: 100px;
+}
+
+.capture {
+	width: 100px;
+	max-width: 100%;
+	max-height: 200px;
+	border: 1px solid black
+	border-radius: 5px;
+}
+
+.syllogism {
+	width: 180px;
+	max-width: 100%;
+	max-height: 200px;
+	border: 1px solid black
+	border-radius: 5px;
+}
+
+.education {
+	font-size: 90%;
+}
+
+.footer {
+	width: 525px;
+	max-width: 100%;
+	max-height: 25px;
+	background-color: rgba(177, 195, 197, 0.7);
+	font-style: italic;
+	color:darkblue;
+}
+
+
+
