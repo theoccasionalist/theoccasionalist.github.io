@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,60 +7,41 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="layout.css">	
 </head>
-
-<body>
-	<main class="main">
-		<header class="header">
-			<h1>Matthew McCall</h1>
-			<p>Junior Developer</p>
-			<figure id="picture">
-				<img src="images/matt-path.png">
-			</figure>
-		</header>
-		<div class="stylebox">	
-			<nav>
-			<ul>
-				<a href="index.html">
-					<li class="content_1">
-					About Me
-					</li>
-				</a>
-				<a href="projects.html">
-					<li class="content_2">	
-					Technologies
-					</li>
-				</a>
-				<a href="education.html">
-					<li class="content_3">
-					Education
-					</li>	
-				</a>	
-			</nav>
-		</div>	
-		<article class="about_me">
-				<h3>Technologies: Java, Python, HTML5, CSS, Grid, Flexbox, JavaScript, Thymeleaf, Spring</h3>
-				<section class="project_photos">
-					<section><p>Visit my sample repositories!</p></section>
-					<section><p><em>Virtual Pets</em></p>
-					<a href="https://github.com/theoccasionalist/virtual-pets-amok">
-						<img src="images/amok.jpg" class="amok">
-					</a>
-					</section>
-					<section><p><em>Reviews</em></p>
-					<a href="https://github.com/theoccasionalist/reviews-site">
-						<img src="images/capture.jpg" class="capture">
-					</a>
-					</section>
-					<section><p><em>Syllogisms</em></p>
-					<a href="https://github.com/theoccasionalist/learning-about-syllogisms">
-						<img src="images/syllogism.jpg" class="syllogism">	
-					</a>
-					</section>
-				</section>	
-		</article>
-		<footer class="footer">
-			Photo Credits: background by Jerilyn Tinio and headshot by Don Hamilton III.  
-		</footer>					
-	</main>	
-</body>
+<main>
+  <header>
+    <h1>Projects!</h1>
+  </header>
+  <nav class="navbar">
+    <button class="button">Dropdown</button>
+      <div class="dropdiv">
+        <div class ="div-content" id="div-content">
+          <a href="index.html">Home</a>  
+          <a href="projects.html">Projects</a> 
+          <a href="contact.html">Contacts</a>
+        </div> 
+      </div>
+    </nav>
+  <section class="project_pics">
+    <figure>
+      <img class="pics2" src="images/amok.jpg">
+      <img class="pics2" src="images/capture.jpg">
+      <img class="pics2" src="images/syllogism.jpg">
+      <img class="pics2" src="images/danny.jpg">
+    </figure>
+    <section class="project-descriptions">
+      <button class="p-butt" id="vpb">Virtual Pet</button>
+      <button class="p-butt" id="rb">Reviews</button>
+      <button class="p-butt" id="sb">Syllogisms</button>
+      <button class="p-butt" id="db">Danny</button>
+      <article id="vpd"><p>Project Virtual Pet was created to detect adequate pet owners.  It failed...miserably.</br></br>Technologies used: Java!</p></article>
+      <article id="rd"><p>Reviews is full stack at its best.  Call now for a live demo!</br></br>Technolgies used: Java, Thymeleaf, HTML, CSS!</article>
+      <article id="sd"><p>Medieval monks dreamed of it: an automated syllogism validity checker.</br></br>Technologies used: Java and Centuries of Human Knowledge!</p></article>
+      <article id="dd"><p>Danny DeVito was created by the KGB to dull American moral sensibilities.</br></br>Technologies used: Danny DeVito and Thymeleaf!</p></article>
+    </section> 
+  </section>
+</main> 
+<footer>This site should be copyrighted by no one, ever.</footer>
+<script src="script2.js">
+</script>      
+</section>
 </html>
