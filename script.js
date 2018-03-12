@@ -4,6 +4,8 @@ var div = document.querySelector('.dropdiv');
 butt.addEventListener('mouseenter', function () { div.style.display = "block"}, false);
 div.addEventListener('mouseleave', function () {
   div.style.display = "none"}, false);
+window.addEventListener('click', function () {
+  div.style.display = "none"}, false);
 
 //Modal Listeners 1
 var mButt = document.querySelector(".m-butt");

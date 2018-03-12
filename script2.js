@@ -1,8 +1,13 @@
+//I have a second script attachment because the Carousel and Modal interfere with one another.
+//This is bootleg, I know. 
+
 //Navigation Listeners
 var butt = document.querySelector('.button');
 var div = document.querySelector('.dropdiv');
 butt.addEventListener('mouseenter', function () { div.style.display = "block"}, false);
 div.addEventListener('mouseleave', function () {
+  div.style.display = "none"}, false);
+window.addEventListener('click', function () {
   div.style.display = "none"}, false);
 
 //Carousel Function

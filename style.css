@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Jura');
 a {
     text-decoration: none;
 }
@@ -7,6 +9,8 @@ body {
 }
 
 header {
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 7px 7px rgba(30,25,25, .3);
     background-color: rgba(204, 155, 70, 1);
     max-width: 12.5em;
     max-height: 10em; 
@@ -27,6 +31,8 @@ button {
     padding: 15px 32px;
     text-align: center;
     font-size: 28px;
+    box-shadow: 7px 0px rgba(30,25,25, .3);
+    font-family: 'Jura', sans-serif;
 }
 
 button:hover, button:focus {
@@ -42,6 +48,9 @@ button:hover, button:focus {
     background-color: #f1f1f1;
     min-width: 200px;
     z-index: 1;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .div-content a {
@@ -57,22 +66,31 @@ button:hover, button:focus {
 .about {
     background-color: orange;
     border-top-right-radius: 10px;
+    box-shadow: 7px 0px rgba(30,25,25, .3);
+}
+
+.m-butt {
+    border-radius: 5px;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
 }
 
 #grad {
     border-radius: 10px;
     width: 13em;
     height: 23em;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
 }
 
 .project_pics {
   background-color: orange;
+  box-shadow: 7px 0px rgba(30,25,25, .3);
 }
 
 .pics2 {
     border-radius: 10px;
     width: 22em;
     height: 22em;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
 }
 
 .p-butt {
@@ -87,6 +105,7 @@ button:hover, button:focus {
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
 }
 
 #vpd, #rd, #sd, #dd {
@@ -94,6 +113,7 @@ button:hover, button:focus {
     background-color: lightblue;
     border-radius: 10px;
     padding: 1em;
+    box-shadow: 7px 5px rgba(30,25,25, .3);
 }
 
 .modal {
@@ -138,11 +158,16 @@ button:hover, button:focus {
     width: 10em;
     height: 10em;
     border-radius: 50%;
+    box-shadow: 7px 7px rgba(30,25,25, .3);
 }
 
 #email {
     font-family: helvetica;
+    padding: .5em;
     font-style: italic;
+    box-shadow: 7px 7px rgba(30,25,25, .3);
+    background-color: rgba(59, 225, 123, .2);
+    border-radius: 10px;
 }
 
 footer {
@@ -150,4 +175,5 @@ footer {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-left: 2em;
+    box-shadow: 7px 7px rgba(30,25,25, .3);
 }
